@@ -94,11 +94,13 @@
       "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
       "scripts": [
         "scripts/centos/fix-slow-dns.sh",
+        "scripts/centos/utils.sh",
         "scripts/common/sshd.sh",
         "scripts/common/vagrant.sh",
         "scripts/common/vmtools.sh",
         "scripts/common/puppet.sh",
         "scripts/centos/cleanup.sh",
+        "scripts/centos/slimmer.sh",
         "scripts/common/minimize.sh"
       ],
       "type": "shell"
