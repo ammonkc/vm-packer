@@ -88,8 +88,24 @@
       ],
       "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
       "scripts": [
+        "scripts/centos/utils.sh"
+      ],
+      "type": "shell"
+    },
+    {
+      "type": "shell",
+      "inline": [
+        "reboot now",
+        "sleep 60"
+      ]
+    },
+    {
+      "environment_vars": [
+        "PUPPET_VERSION={{user `puppet_version`}}"
+      ],
+      "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
+      "scripts": [
         "scripts/centos/fix-slow-dns.sh",
-        "scripts/centos/utils.sh",
         "scripts/common/sshd.sh",
         "scripts/common/vagrant.sh",
         "scripts/common/vmtools.sh",
@@ -98,6 +114,7 @@
         "scripts/centos/slimmer.sh",
         "scripts/common/minimize.sh"
       ],
+      "start_retry_timeout": "5m",
       "type": "shell"
     }
   ],
