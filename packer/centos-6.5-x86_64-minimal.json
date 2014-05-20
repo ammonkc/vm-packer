@@ -78,11 +78,6 @@
       "output": "../builds/{{.Provider}}/packer-centos-6.5-x86_64.box",
       "type": "vagrant",
       "vagrantfile_template": "../templates/vagrantfile_tpl",
-      "include": [
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/_Vagrantfile",
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/README.md",
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/LICENSE"
-      ],
       "compression_level": 9
     }
   ],
