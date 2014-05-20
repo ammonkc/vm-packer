@@ -79,12 +79,12 @@
       "type": "vagrant",
       "vagrantfile_template": "../templates/vagrantfile_tpl",
       "include": [
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/_Vagrantfile",
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/README.md",
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/LICENSE",
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/bootstrap",
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/manifests",
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/modules"
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/_Vagrantfile",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/README.md",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/LICENSE",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/bootstrap",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/manifests",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/modules"
       ],
       "compression_level": 9
     }
