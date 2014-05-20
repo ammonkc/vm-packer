@@ -93,9 +93,10 @@
       "type": "shell"
     },
     {
+      "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
       "type": "shell",
       "inline": [
-        "reboot now",
+        "reboot",
         "sleep 60"
       ]
     },
