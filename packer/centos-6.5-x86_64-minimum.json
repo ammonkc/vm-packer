@@ -87,7 +87,7 @@
         "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/LICENSE",
         "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/bootstrap",
         "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/manifests",
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/modules",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/modules"
       ],
       "compression_level": 9
     }
