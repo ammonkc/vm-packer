@@ -81,6 +81,14 @@
       "output": "../builds/{{.Provider}}/opscode_centos-6.5_chef-{{user `chef_version`}}.box",
       "type": "vagrant",
       "vagrantfile_template": "../templates/vagrantfile_tpl",
+      "include": [
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/_Vagrantfile",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/README.md",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/LICENSE",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/bootstrap",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/manifests",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-privisions/modules",
+      ],
       "compression_level": 9
     }
   ],
