@@ -78,7 +78,7 @@
   ],
   "post-processors": [
     {
-      "output": "../builds/{{.Provider}}/opscode_centos-6.5_chef-{{user `chef_version`}}.box",
+      "output": "../builds/{{.Provider}}/packer-centos-6.5-x86_64.box",
       "type": "vagrant",
       "vagrantfile_template": "../templates/vagrantfile_tpl",
       "include": [
