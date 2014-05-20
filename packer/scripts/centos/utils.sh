@@ -10,4 +10,4 @@ enabled=1
 gpgcheck=0
 EOM
 
-yum -y install gcc gcc-c++ make kernel-devel-`uname -r` perl nfs-utils wget
+yum -y install gcc gcc-c++ make kernel-devel-`uname -r` kernel-headers-`uname -r` perl nfs-utils wget
