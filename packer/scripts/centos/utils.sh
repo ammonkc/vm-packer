@@ -12,4 +12,4 @@ EOM
 
 yum -y update
 
-yum -y install gcc gcc-c++ make kernel-devel-`uname -r` kernel-headers-`uname -r` perl nfs-utils wget
+yum -y install gcc gcc-c++ make kernel-devel kernel-headers perl nfs-utils wget
