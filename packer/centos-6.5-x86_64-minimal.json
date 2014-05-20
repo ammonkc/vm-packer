@@ -82,9 +82,9 @@
         "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/_Vagrantfile",
         "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/README.md",
         "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/LICENSE",
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/bootstrap",
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/manifests",
-        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/modules"
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/bootstrap/*",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/manifests/*",
+        "/Users/ammonkc/Develop/Repos/Projects/vagrant-provisions/modules/*"
       ],
       "compression_level": 9
     }
