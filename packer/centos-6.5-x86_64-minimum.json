@@ -1,11 +1,4 @@
 {
-  "variables": {
-    "puppet_version": "provisionerless",
-    "mirror": "http://mirrors.kernel.org/centos",
-    "mirror_local": "file:///Users/ammonkc/Virtual Machines/ISOs/centos",
-    "mirror_vol": "Burn",
-    "guest_additions_mirror": "http://download.virtualbox.org"
-  },
   "builders": [
     {
       "boot_command": [
@@ -115,8 +108,11 @@
     }
   ],
   "variables": {
-    "chef_version": "provisionerless",
-    "mirror": "http://mirrors.kernel.org/centos"
+    "puppet_version": "provisionerless",
+    "mirror": "http://mirrors.kernel.org/centos",
+    "mirror_local": "file:///Users/ammonkc/Virtual Machines/ISOs/centos",
+    "mirror_vol": "Burn",
+    "guest_additions_mirror": "http://download.virtualbox.org"
   }
 }
 
