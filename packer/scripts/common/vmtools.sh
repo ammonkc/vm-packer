@@ -12,7 +12,7 @@ virtualbox-iso|virtualbox-ovf)
     rm /home/vagrant/*.iso
     ;;
 
-vmware-iso|vmware-ovf)
+vmware-iso|vmware-vmx)
     mkdir /tmp/vmfusion
     mkdir /tmp/vmfusion-archive
     mount -o loop /home/vagrant/linux.iso /tmp/vmfusion
