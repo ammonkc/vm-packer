@@ -14,8 +14,12 @@ Boxes for obsolete operating systems will be placed here.
 * [opscode-debian-7.2.0](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_debian-7.2.0_chef-provisionerless.box)
 * [opscode-fedora-18-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_fedora-18-i386_chef-provisionerless.box)
 * [opscode-fedora-18](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_fedora-18_chef-provisionerless.box)
+* [opscode-ubuntu-12.10-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-12.10-i386_chef-provisionerless.box)
+* [opscode-ubuntu-12.10](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-12.10_chef-provisionerless.box)
 * [opscode-ubuntu-13.04-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-13.04-i386_chef-provisionerless.box)
 * [opscode-ubuntu-13.04](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-13.04_chef-provisionerless.box)
+* [opscode-ubuntu-13.10-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-13.10-i386_chef-provisionerless.box)
+* [opscode-ubuntu-13.10](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-13.10_chef-provisionerless.box)
 
 ### VMWare
 
@@ -25,8 +29,12 @@ Boxes for obsolete operating systems will be placed here.
 * [opscode-debian-7.2.0](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_debian-7.2.0_chef-provisionerless.box)
 * [opscode-fedora-18-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_fedora-18-i386_chef-provisionerless.box)
 * [opscode-fedora-18](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_fedora-18_chef-provisionerless.box)
+* [opscode-ubuntu-12.10-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_ubuntu-12.10-i386_chef-provisionerless.box)
+* [opscode-ubuntu-12.10](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_ubuntu-12.10_chef-provisionerless.box)
 * [opscode-ubuntu-13.04-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_ubuntu-13.04-i386_chef-provisionerless.box)
 * [opscode-ubuntu-13.04](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_ubuntu-13.04_chef-provisionerless.box)
+* [opscode-ubuntu-13.10-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_ubuntu-13.10-i386_chef-provisionerless.box)
+* [opscode-ubuntu-13.10](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_ubuntu-13.10_chef-provisionerless.box)
 
 Chef 11.4.4
 -----------
